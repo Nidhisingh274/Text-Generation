@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import pipeline
 
 # Load the text generation pipeline
-generator = pipeline("text-generation", model="gpt2") # Decoder only transformer architecture
+generator = pipeline("text-generation", model="gpt2")
 
 
 def main():
@@ -28,6 +28,5 @@ def main():
         st.write(f"{count}. {output['generated_text']}")
         count += 1
 
-
 if __name__ == "__main__":
-    main() cant uderstand from for i
+    main()
