@@ -25,8 +25,8 @@ def main():
         st.subheader("Generated Responses:")
         count = 1
         for output in result:
-        st.write(f"{count}. {output['generated_text']}")
-        count += 1
+           st.write(f"{count}. {output['generated_text']}")
+           count += 1
 
 if __name__ == "__main__":
     main()
